@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+public/_ref/api.js
+public/_ref/exercise.html
+public/_ref/exercise.js
+public/_ref/index.html
+public/_ref/index.js
+public/_ref/stats.html
+public/_ref/stats.js
+public/_ref/style.css
+public/_ref/workout.js
