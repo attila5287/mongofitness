@@ -23,12 +23,51 @@
   </head>
 
   <body class="my-5 py-5">
-    
+    <header>
+    <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top align-items-center">
+        <div class="nav navbar-nav">
+          <a class="navbar-brand text-lg font-weight-bold" href="http://mongobudget.herokuapp.com">
+          <img src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/site/logo72.png" class="img-nav bg-transparent" alt="app-logo">
+            
+            <span class="badge badge-secondary p-1 rounded-xl text-dark bg-transparent">
+            Mongo
+            <span class="badge badge-success m-0 p-1 font-weight-bold text-dark">Fitness</span>
+            Tracker
+            </span>
+        </a>
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Home</a>
+        
+        </div>
+    </nav>
+    </header>
+
     <main class="container-fluid">
       {{{body}}}
 
     </main>
 
+
+    <footer class="footer fixed-bottom mt-auto py-0 text-center bg-dark">
+      <div class="container align-items-center">
+        <i class="fa fa-quote-left fa-pull-left text-dark mt-2" aria-hidden="true"></i>
+        <i class="fa fa-cog fa-spin text-lg" aria-hidden="true"></i>
+        <i class="fa fa-cog fa-pulse text-xl" aria-hidden="true"></i>
+          <img src="https://avatars.githubusercontent.com/u/42498753?s=48&v=4"
+            class="infinite delay-1s animated pulse img-mini bg-primary rounded-up" alt="dev-img">
+        <span class="text-light">
+          <span class="animated fadeInUpBig"><i class="mr-2 fas fa-dumbbell" aria-hidden="true"></i>fitness tracker app with </span>
+          <span class="animated fadeInUpBig delay-1s"><i class="mr-2 fas fa-database" aria-hidden="true"></i>mongo database server, mongoose ORM, </span>
+          <span class="animated fadeInUpBig delay-2s"><i class="mr-2 fas fa-tv" aria-hidden="true"></i>client-sided indexed DB object storage, </span>
+          <span class="animated fadeInUpBig delay-3s"><i class="mr-2 fas fa-server" aria-hidden="true"></i>express, express-handlebars and </span>
+          <span class="animated fadeInUpBig delay-4s"><i class="mr-2 fab fa-css3" aria-hidden="true"></i>bootstrap-css library</span>
+        </span>
+          <span class="badge badge-pill badge-primary pt-1">
+            <h1 class="text-light fab fa-node my-0 animated infinite heartBeat delay-5s "></h1>
+          </span>
+        <i class="fa fa-quote-right fa-pull-right text-dark mt-2" aria-hidden="true"></i>
+      </div>
+    </footer>
 
     <script src="/assets/jquery-3.js"></script>
     <script src="/assets/jquery.js"></script>

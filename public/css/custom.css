@@ -1,6 +1,14 @@
 html,
 body {
+  /* height: 100%; */
+  background-color: #333;
   font-size: 1rem;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
 }
 
 a.post-title {
@@ -150,6 +158,11 @@ a.post-title:focus {
   font-size: 0.85rem;
 }
 
+.img-nav {
+  max-width:  3.50rem;
+  max-height: 3.50rem;
+}
+
 .img-mini {
   max-width:  2.50rem;
   max-height: 2.50rem;
@@ -193,4 +206,14 @@ a.post-title:focus {
 
 .uplabel {
   font-size: 1.25rem;
+}
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 4rem;
+  line-height: 4rem;
 }
