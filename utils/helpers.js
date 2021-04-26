@@ -15,7 +15,7 @@ module.exports = {
       new Date(date).getFullYear() + 5
     }`;
   },
-  gen_imgs: [
+  burning: [
     "aerobic",
     "dance",
     "explosive",
@@ -23,10 +23,22 @@ module.exports = {
     "static_str",
     "yoga",
     "ball",
-    "dynamic_str",
+    "sprint",
     "mat",
     "resistance",
     "weight",
     "zumba",
+  ],
+  lifting : [
+[
+  "abdominals",
+  "back",
+  "biceps",
+  "calves",
+  "chest",
+  "legs",
+  "lower_back",
+  "shoulders",
+]
   ]
 };

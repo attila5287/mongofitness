@@ -1,10 +1,10 @@
 const router = require( 'express' ).Router();
-const {gen_imgs} = require( '../utils/helpers' );
+const {burning, lifting} = require( '../utils/helpers' );
 // const Workout = require( "../models/Workout" );
 
-router.get('/', (req, res) => {
-  console.log('helpers.gen_imgs :>> ', gen_imgs);
-  res.render( 'landing', { images: gen_imgs } );
+router.get( '/', ( req, res ) => {
+  
+  res.render( 'landing', { burning: burning, lifting:lifting  } );
   
 
 });
