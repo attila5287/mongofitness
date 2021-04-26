@@ -1,0 +1,21 @@
+<h1>Welcome to Fitness Tracker!</h1>
+
+<h6> Exercise Menu</h6>
+
+  <div class="row">
+  {{#each images as |img|}}
+    <div class="col-3">
+      <btn class="btn btn-block btn-outline-success rounded-xl w-100 h-75">
+
+          <img class="img-illust" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/illustration/{{img}}.png" alt="{{img}}-img">
+          
+      </btn>
+        <h4 class="text-center text-uppercase">
+          {{img}}
+        </h4>
+
+    </div>
+  {{/each}}
+
+
+  </div>
