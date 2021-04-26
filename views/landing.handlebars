@@ -1,13 +1,13 @@
 <h1>Welcome to Fitness Tracker!</h1>
-
-<h6> Exercise Menu</h6>
+<hr>
+<h6> Body Builders </h6>
 
   <div class="row">
   {{#each lifting as |lift|}}
     <div class="col-3">
       <btn class="btn btn-block btn-outline-success rounded-xl w-100 h-75">
 
-          <img class="img-illust" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/illustration/{{lift}}.png" alt="{{lift}}-img">
+          <img class="img-lift" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/target_areas/{{lift}}.png" alt="{{lift}}-img">
           
       </btn>
       
@@ -18,14 +18,17 @@
     </div>
   {{/each}}
 
-
   </div>
+
+
+<h6> Calorie Burners</h6>
+
   <div class="row">
   {{#each burning as |burn|}}
     <div class="col-3">
       <btn class="btn btn-block btn-outline-success rounded-xl w-100 h-75">
 
-          <img class="img-illust" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/illustration/{{burn}}.png" alt="{{burn}}-img">
+          <img class="img-burn" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/illustration/{{burn}}.png" alt="{{burn}}-img">
           
       </btn>
       

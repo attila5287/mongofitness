@@ -59,6 +59,13 @@ a.post-title:focus {
   padding: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
 
+.midi {
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
 .text-md {
   font-size: 0.80rem;
 }
@@ -174,7 +181,11 @@ a.post-title:focus {
   border-radius: 1rem;
 }
 
-.img-illust {
+.img-burn {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.img-lift  {
   max-width: 10rem;
   max-height: 10rem;
 }

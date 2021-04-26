@@ -24,13 +24,12 @@ module.exports = {
     "yoga",
     "ball",
     "sprint",
-    "mat",
+    "pilates",
     "resistance",
     "weight",
     "zumba",
   ],
   lifting : [
-[
   "abdominals",
   "back",
   "biceps",
@@ -39,6 +38,5 @@ module.exports = {
   "legs",
   "lower_back",
   "shoulders",
-]
   ]
 };
