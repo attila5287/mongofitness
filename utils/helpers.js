@@ -30,13 +30,13 @@ module.exports = {
     "zumba",
   ],
   lifting : [
-  "abdominals",
-  "back",
-  "biceps",
-  "calves",
-  "chest",
-  "legs",
-  "lower_back",
-  "shoulders",
+  "Abdominals",
+  "Biceps",
+  "Calves",
+  "Chest",
+  "Lats",
+  "Legs",
+  "Shoulders",
+  "Triceps",
   ]
 };
