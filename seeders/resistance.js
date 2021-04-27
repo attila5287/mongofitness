@@ -1,4 +1,12 @@
-const builders = [
+const headers= [
+    "Target",
+    "Muscles",
+    "Name",
+    "Area",
+    "Split",
+    "Equipment",
+  ],
+const resistance = [
   ["Abdominals", "Abs-Lower", "Full Reverse Crunch", "Advanced", "Core", "Push", "Free-Weight", ], 
 ["Abdominals", "Abs-Lower", "Incline Hip Thrust", "Advanced", "Core", "Push", "Free-Weight", ], 
 ["Abdominals", "Abs-Lower", "Incline Reverse Crunch", "Advanced", "Core", "Push", "Free-Weight", ], 
@@ -273,4 +281,5 @@ const builders = [
 ]
 
 
-module.exports = {builders};
+module.exports = { headers,resistance };
+
