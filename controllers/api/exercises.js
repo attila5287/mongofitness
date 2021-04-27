@@ -1,11 +1,12 @@
 const router = require( 'express' ).Router();
 const resist = require( '../../resist' );
+const resista = require( '../../resista' );
 
 
-router.get( '/resist/seed/:targeted', ( req, res ) => {
+router.get( '/:targeted', ( req, res ) => {
 
 
-  const requested = resist.filter( r => r.targeted.toLowerCase() === req.params.targeted );
+  const requested = resista.filter( r => r.targeted.toLowerCase() === req.params.targeted );
 
   // res.json( resist );
   res.json( requested );
