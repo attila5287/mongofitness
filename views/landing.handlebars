@@ -72,14 +72,14 @@
   </div>
 </div>
 
-        <btn  data-toggle="modal" data-target="#{{lift}}_modal" class="btn btn-block btn-outline-primary rounded-xl w-100 h-100">
+        <button  data-toggle="modal" data-target="#{{lift}}_modal" class="btn btn-block btn-outline-primary rounded-xl w-100 h-100">
 
           {{!-- <img class="img-lift" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/muscles/{{lift}}.png" alt="{{lift}}-img"> --}}
 
           <img class="img-lift" src="/img/muscles/{{lift}}.png"
             alt="{{lift}}-img">
 
-        </btn>
+        </button>
 
         <h4 class="text-center text-uppercase">
           {{lift}}
@@ -108,12 +108,17 @@
   <div class="row">
     {{#each burning as |burn|}}
       <div class="col-3">
-        <btn class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
+<div class="collapse" id="{{burn}}_coll">
+  <div class="card card-body text-dark">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+        <button type="button" data-toggle="collapse" data-target="#{{burn}}_coll" aria-expanded="false" aria-controls="{{burn}}_coll" class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
 
           <img class="img-burn" src="/img/illustration/{{burn}}.png"
             alt="{{burn}}-img">
 
-        </btn>
+        </button>
 
         <h4 class="text-center text-uppercase">
           {{burn}}
