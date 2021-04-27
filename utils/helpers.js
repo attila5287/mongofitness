@@ -38,5 +38,12 @@ module.exports = {
   "Legs",
   "Shoulders",
   "Triceps",
-  ]
-};
+  ],
+  headers: [
+      "Target", 
+      "Muscles", 
+      "Name", 
+      "Area", 
+      "Split", 
+      "Equipment", 
+  ]};
