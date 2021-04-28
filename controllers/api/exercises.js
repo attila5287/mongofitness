@@ -2,14 +2,13 @@ const router = require( 'express' ).Router();
 const saved = require( '../../saved' );
 
 
-router.get( '/:targeted', ( req, res ) => {
+router.get( '/:category', ( req, res ) => {
+  // console.log(saved.resistance);
+  const selected = saved.resistance.filter( r => r.category.toLowerCase() === req.params.category.toLowerCase() );
 
-
-  const selected = saved.resistance.filter( r => r.targeted.toLowerCase() === req.params.targeted );
-
-  // res.json( resist );
-  res.json( selected );
+  console.log('selected ' + selected);
   
+  res.json( selected );
 } );
 
 module.exports = router;

@@ -1,6 +1,7 @@
 const resistance = [
   {
-    targeted: 'Abdominals',
+    unq_id: 1,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Full Reverse Crunch',
     difficulty: 'Advanced',
@@ -9,7 +10,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 2,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Incline Hip Thrust',
     difficulty: 'Advanced',
@@ -18,7 +20,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 3,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Incline Reverse Crunch',
     difficulty: 'Advanced',
@@ -27,7 +30,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 4,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Lying Hip Thrust',
     difficulty: 'Advanced',
@@ -36,7 +40,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 5,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Reverse Crunch',
     difficulty: 'Beginner',
@@ -45,7 +50,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 6,
+    category: 'Abdominals',
     muscles: 'Abs-Lower',
     name: 'Reverse Medicine Ball Crunch',
     difficulty: 'Advanced',
@@ -54,7 +60,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 7,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Alternating Heel Touch',
     difficulty: 'Beginner',
@@ -63,7 +70,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 8,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Bent-Knee Medicine Ball Hip Rot',
     difficulty: 'Advanced',
@@ -72,7 +80,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 9,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Cable Chop',
     difficulty: 'Advanced',
@@ -81,7 +90,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 10,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Cross Crunch',
     difficulty: 'Beginner',
@@ -90,7 +100,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 11,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Cross Crunch with Medicine Ball',
     difficulty: 'Advanced',
@@ -99,7 +110,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 12,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Decline Cross Sit-Up',
     difficulty: 'Advanced',
@@ -108,7 +120,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 13,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Decline Sit-Up with Twist',
     difficulty: 'Advanced',
@@ -117,7 +130,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 14,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Reverse Cable Chop',
     difficulty: 'Advanced',
@@ -126,7 +140,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 15,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Seated Medicine Ball Twist',
     difficulty: 'Advanced',
@@ -135,7 +150,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 16,
+    category: 'Abdominals',
     muscles: 'Abs-Obliques',
     name: 'Trunk Rotator',
     difficulty: 'Advanced',
@@ -144,7 +160,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 17,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Front Plank -from knees',
     difficulty: 'Beginner',
@@ -153,7 +170,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 18,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Front Plank -from toes',
     difficulty: 'Intermediate',
@@ -162,7 +180,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 19,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Front Plank -tripod',
     difficulty: 'Advanced',
@@ -171,7 +190,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 20,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Side-Plank -from knees',
     difficulty: 'Intermediate',
@@ -180,7 +200,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 21,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Side-Plank -hip lift',
     difficulty: 'Beginner',
@@ -189,7 +210,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 22,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Side-Plank -from toes',
     difficulty: 'Advanced',
@@ -198,7 +220,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 23,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Ab Cycle',
     difficulty: 'Advanced',
@@ -207,7 +230,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 24,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Kneeling Ab Rollout',
     difficulty: 'Intermediate',
@@ -216,7 +240,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 25,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Medicine Ball V-Up',
     difficulty: 'Advanced',
@@ -225,7 +250,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 26,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'V-Up',
     difficulty: 'Beginner',
@@ -234,7 +260,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 27,
+    category: 'Abdominals',
     muscles: 'Abs-Total',
     name: 'Weighted V-Up',
     difficulty: 'Intermediate',
@@ -243,7 +270,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 28,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Bent Knee Sit-Up',
     difficulty: 'Beginner',
@@ -252,7 +280,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 29,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Bent-Knee Crunch',
     difficulty: 'Beginner',
@@ -261,7 +290,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 30,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Crunch',
     difficulty: 'Beginner',
@@ -270,7 +300,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 31,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Crunch',
     difficulty: 'Beginner',
@@ -279,7 +310,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 32,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Decline Crunch',
     difficulty: 'Advanced',
@@ -288,7 +320,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 33,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Decline Sit-Up',
     difficulty: 'Advanced',
@@ -297,7 +330,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 34,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Heel Touch',
     difficulty: 'Beginner',
@@ -306,7 +340,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 35,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Sit-Up',
     difficulty: 'Beginner',
@@ -315,7 +350,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Abdominals',
+    unq_id: 36,
+    category: 'Abdominals',
     muscles: 'Abs-Upper',
     name: 'Weighted Crunch',
     difficulty: 'Intermediate',
@@ -324,7 +360,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 37,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Assisted Pull-Up',
     difficulty: 'Beginner',
@@ -333,7 +370,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 38,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Close-Grip Lat Pulldown',
     difficulty: 'Beginner',
@@ -342,7 +380,8 @@ const resistance = [
     mod: 'Machine',
   },
   {
-    targeted: 'Lats',
+    unq_id: 39,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Inverted Pull-Up',
     difficulty: 'Advanced',
@@ -351,7 +390,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 40,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Lat Pulldown',
     difficulty: 'Beginner',
@@ -360,7 +400,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 41,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Pull-Up',
     difficulty: 'Beginner',
@@ -369,7 +410,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 42,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Reverse-Grip Lat Pullown',
     difficulty: 'Intermediate',
@@ -378,7 +420,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 43,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Reverse-Grip Pull-Up',
     difficulty: 'Advanced',
@@ -387,7 +430,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 44,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'V-Bar Pull-Up',
     difficulty: 'Advanced',
@@ -396,7 +440,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 45,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Wide-Grip Lat Pulldown',
     difficulty: 'Beginner',
@@ -405,7 +450,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 46,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Alternating Dumbbell Row',
     difficulty: 'Intermediate',
@@ -414,7 +460,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 47,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Barbell Row',
     difficulty: 'Beginner',
@@ -423,7 +470,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 48,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Dumbbell Row',
     difficulty: 'Beginner',
@@ -432,7 +480,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 49,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Hammer Dumbbell Row',
     difficulty: 'Beginner',
@@ -441,7 +490,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 50,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Long Barbell Row',
     difficulty: 'Intermediate',
@@ -450,7 +500,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 51,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Reverse-Grip Barbell Row',
     difficulty: 'Advanced',
@@ -459,7 +510,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 52,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Bent-Over Single-Arm Long Barbell Row',
     difficulty: 'Advanced',
@@ -468,7 +520,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 53,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Machine Row',
     difficulty: 'Beginner',
@@ -477,7 +530,8 @@ const resistance = [
     mod: 'Machine',
   },
   {
-    targeted: 'Lats',
+    unq_id: 54,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'One Arm Dumbbell Row',
     difficulty: 'Beginner',
@@ -486,7 +540,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 55,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Reverse Incline Dumbbell Row',
     difficulty: 'Advanced',
@@ -495,7 +550,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 56,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Rope Cable Row',
     difficulty: 'Intermediate',
@@ -504,7 +560,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 57,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Seated Cable Row',
     difficulty: 'Beginner',
@@ -513,7 +570,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 58,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Seated Row',
     difficulty: 'Beginner',
@@ -522,7 +580,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 59,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Single-Arm Cable Row',
     difficulty: 'Intermediate',
@@ -531,7 +590,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 60,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Single-Arm Dumbbell Row',
     difficulty: 'Beginner',
@@ -540,7 +600,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Lats',
+    unq_id: 61,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Single-Arm Lat Pulldown',
     difficulty: 'Intermediate',
@@ -549,7 +610,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 62,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Standing Cable Row',
     difficulty: 'Beginner',
@@ -558,7 +620,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Lats',
+    unq_id: 63,
+    category: 'Lats',
     muscles: 'Latissimus Dorsi',
     name: 'Standing Single-Arm Cable Row',
     difficulty: 'Intermediate',
@@ -567,7 +630,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 64,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Alternating Dumbbell Curl',
     difficulty: 'Beginner',
@@ -576,7 +640,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 65,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Alternating Hammer Curl',
     difficulty: 'Beginner',
@@ -585,7 +650,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 66,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Barbell Curl',
     difficulty: 'Beginner',
@@ -594,7 +660,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 67,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Bicep Curl',
     difficulty: 'Beginner',
@@ -603,7 +670,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 68,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Bottom/Top/Full Curls',
     difficulty: 'Advanced',
@@ -612,7 +680,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 69,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Cable Curl',
     difficulty: 'Intermediate',
@@ -621,7 +690,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 70,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Concentration Dumbbell Curl',
     difficulty: 'Intermediate',
@@ -630,7 +700,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 71,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Cross Body Hammer Curl',
     difficulty: 'Advanced',
@@ -639,7 +710,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 72,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Dumbbell Curl',
     difficulty: 'Beginner',
@@ -648,7 +720,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 73,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'EZ-Bar Curl',
     difficulty: 'Intermediate',
@@ -657,7 +730,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 74,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Hammer Curl',
     difficulty: 'Beginner',
@@ -666,7 +740,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 75,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Incline Alternating Dumbbell Curl',
     difficulty: 'Advanced',
@@ -675,7 +750,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 76,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Incline Alternating Hammer Curl',
     difficulty: 'Advanced',
@@ -684,7 +760,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 77,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Incline Dumbbell Curl',
     difficulty: 'Advanced',
@@ -693,7 +770,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 78,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Incline Hammer Curl',
     difficulty: 'Advanced',
@@ -702,7 +780,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 79,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Kneeling Cable Curl',
     difficulty: 'Beginner',
@@ -711,7 +790,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 80,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Lying Cable Curl',
     difficulty: 'Intermediate',
@@ -720,7 +800,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 81,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Lying Double Biceps Cable Curl',
     difficulty: 'Intermediate',
@@ -729,7 +810,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 82,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Lying High Cable Curl',
     difficulty: 'Advanced',
@@ -738,7 +820,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 83,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Machine Curl',
     difficulty: 'Beginner',
@@ -747,7 +830,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 84,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Overhead Double Biceps Cable Curl',
     difficulty: 'Advanced',
@@ -756,7 +840,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 85,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Overhead Rope Cable Curl',
     difficulty: 'Advanced',
@@ -765,7 +850,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 86,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher Barbell Curl',
     difficulty: 'Advanced',
@@ -774,7 +860,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 87,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher Cable Curl',
     difficulty: 'Advanced',
@@ -783,7 +870,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 88,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher Dumbbell Curl',
     difficulty: 'Intermediate',
@@ -792,7 +880,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 89,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher EZ-Bar Curl',
     difficulty: 'Advanced',
@@ -801,7 +890,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 90,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher Hammer Dumbbell Curl',
     difficulty: 'Intermediate',
@@ -810,7 +900,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 91,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Preacher Single-Arm Dumbbell Curl',
     difficulty: 'Intermediate',
@@ -819,7 +910,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 92,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Reverse Curl',
     difficulty: 'Advanced',
@@ -828,7 +920,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 93,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Rope Cable Curl',
     difficulty: 'Intermediate',
@@ -837,7 +930,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 94,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Seated Alternating Curl',
     difficulty: 'Beginner',
@@ -846,7 +940,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 95,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Seated Alternating Hammer Curl',
     difficulty: 'Beginner',
@@ -855,7 +950,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 96,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Seated Dumbbell Curl',
     difficulty: 'Beginner',
@@ -864,7 +960,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 97,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Seated Hammer Curl',
     difficulty: 'Beginner',
@@ -873,7 +970,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 98,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Single-Arm Barbell Curl',
     difficulty: 'Beginner',
@@ -882,7 +980,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 99,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Single-Arm Cable Curl',
     difficulty: 'Intermediate',
@@ -891,7 +990,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 100,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Single-Arm Dumbbell Curl w/ Incline Bench',
     difficulty: 'Beginner',
@@ -900,7 +1000,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Biceps',
+    unq_id: 101,
+    category: 'Biceps',
     muscles: 'Biceps',
     name: 'Spider Curl',
     difficulty: 'Advanced',
@@ -909,7 +1010,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 102,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Barbell Calf Raise',
     difficulty: 'Advanced',
@@ -918,7 +1020,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 103,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Calf Press',
     difficulty: 'Beginner',
@@ -927,7 +1030,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Calves',
+    unq_id: 104,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Calf Raise - Seated',
     difficulty: 'Beginner',
@@ -936,7 +1040,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 105,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Calf Raise - Standing',
     difficulty: 'Beginner',
@@ -945,7 +1050,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 106,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Dumbbell Calf Raise',
     difficulty: 'Beginner',
@@ -954,7 +1060,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 107,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Single-Leg Calf Press',
     difficulty: 'Advanced',
@@ -963,7 +1070,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Calves',
+    unq_id: 108,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Single-Leg Dumbbell Calf Raise',
     difficulty: 'Advanced',
@@ -972,7 +1080,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Calves',
+    unq_id: 109,
+    category: 'Calves',
     muscles: 'Calves-Gastrocnemius',
     name: 'Smith Machine Calf Raise',
     difficulty: 'Intermediate',
@@ -981,7 +1090,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Calves',
+    unq_id: 110,
+    category: 'Calves',
     muscles: 'Calves-Soleus',
     name: 'Seated Calf Raise',
     difficulty: 'Beginner',
@@ -990,7 +1100,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Calves',
+    unq_id: 111,
+    category: 'Calves',
     muscles: 'Calves-Soleus',
     name: 'Seated Single-Leg Calf Raise',
     difficulty: 'Intermediate',
@@ -999,7 +1110,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 112,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Alternating Dumbbell Bench Press',
     difficulty: 'Intermediate',
@@ -1008,7 +1120,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 113,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Barbell Bench Press',
     difficulty: 'Intermediate',
@@ -1017,7 +1130,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 114,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Chest Press',
     difficulty: 'Beginner',
@@ -1026,7 +1140,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 115,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Decline Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1035,7 +1150,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 116,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Decline Smith Machine Bench Press',
     difficulty: 'Advanced',
@@ -1044,7 +1160,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 117,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Dumbbell Bench Press',
     difficulty: 'Beginner',
@@ -1053,7 +1170,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 118,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Dumbbell Push-Up',
     difficulty: 'Beginner',
@@ -1062,7 +1180,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 119,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Elevated Push-Up',
     difficulty: 'Advanced',
@@ -1071,7 +1190,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 120,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Flat Bench Press',
     difficulty: 'Intermediate',
@@ -1080,7 +1200,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 121,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Alternating Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1089,7 +1210,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 122,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Barbell Bench Press',
     difficulty: 'Advanced',
@@ -1098,7 +1220,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 123,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Bench Press',
     difficulty: 'Advanced',
@@ -1107,7 +1230,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 124,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1116,7 +1240,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 125,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Hammer Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1125,7 +1250,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 126,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Single-Arm Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1134,7 +1260,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 127,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Smith Machine Bench Press',
     difficulty: 'Advanced',
@@ -1143,7 +1270,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 128,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Twisting Dumbbell Bench Press',
     difficulty: 'Advanced',
@@ -1152,7 +1280,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 129,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Kneeling Push-Up',
     difficulty: 'Beginner',
@@ -1161,7 +1290,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 130,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Machine Bench Press',
     difficulty: 'Beginner',
@@ -1170,7 +1300,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 131,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Machine Vertical Bench Press',
     difficulty: 'Beginner',
@@ -1179,7 +1310,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 132,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Medicine Ball Crossover Push-Up',
     difficulty: 'Advanced',
@@ -1188,7 +1320,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 133,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Push-Up',
     difficulty: 'Beginner',
@@ -1197,7 +1330,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 134,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Single-Arm Dumbbell Bench Press',
     difficulty: 'Intermediate',
@@ -1206,7 +1340,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 135,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Smith Machine Bench Press',
     difficulty: 'Intermediate',
@@ -1215,7 +1350,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 136,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Twisting Dumbbell Bench Press',
     difficulty: 'Beginner',
@@ -1224,7 +1360,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 137,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Wide-Grip Push-Up',
     difficulty: 'Beginner',
@@ -1233,7 +1370,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 138,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Cable Crossover',
     difficulty: 'Advanced',
@@ -1242,7 +1380,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Chest',
+    unq_id: 139,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Cable Fly',
     difficulty: 'Advanced',
@@ -1251,7 +1390,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Chest',
+    unq_id: 140,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Decline Dumbbell Fly',
     difficulty: 'Advanced',
@@ -1260,7 +1400,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 141,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Dumbbell Fly',
     difficulty: 'Beginner',
@@ -1269,7 +1410,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 142,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'High Cable Crossover',
     difficulty: 'Advanced',
@@ -1278,7 +1420,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Chest',
+    unq_id: 143,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Cable Fly',
     difficulty: 'Advanced',
@@ -1287,7 +1430,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Chest',
+    unq_id: 144,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Dumbbell Fly',
     difficulty: 'Advanced',
@@ -1296,7 +1440,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 145,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Incline Twisting Dumbbell Fly',
     difficulty: 'Advanced',
@@ -1305,7 +1450,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Chest',
+    unq_id: 146,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Low Cable Crossover',
     difficulty: 'Intermediate',
@@ -1314,7 +1460,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Chest',
+    unq_id: 147,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Pec Deck',
     difficulty: 'Beginner',
@@ -1323,7 +1470,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Chest',
+    unq_id: 148,
+    category: 'Chest',
     muscles: 'Chest-Pectoralis',
     name: 'Pec Deck Fly',
     difficulty: 'Beginner',
@@ -1332,7 +1480,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 149,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Bent-Knee Single-Leg Hip Lift',
     difficulty: 'Advanced',
@@ -1341,7 +1490,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 150,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Elevated Hip Lift',
     difficulty: 'Intermediate',
@@ -1350,7 +1500,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 151,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Elevated Single-Leg Hip Lift',
     difficulty: 'Advanced',
@@ -1359,7 +1510,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 152,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Hip Lift',
     difficulty: 'Beginner',
@@ -1368,7 +1520,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 153,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Single-Leg Hip Lift',
     difficulty: 'Intermediate',
@@ -1377,7 +1530,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 154,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Deadlift',
     difficulty: 'Advanced',
@@ -1386,7 +1540,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 155,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Leg Curl',
     difficulty: 'Beginner',
@@ -1395,7 +1550,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 156,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Lying Alternating Leg Curl',
     difficulty: 'Intermediate',
@@ -1404,7 +1560,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 157,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Lying Leg Curl',
     difficulty: 'Beginner',
@@ -1413,7 +1570,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 158,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Lying Single-Leg Curl',
     difficulty: 'Intermediate',
@@ -1422,7 +1580,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 159,
+    category: 'Legs',
     muscles: 'Legs-Hamstrings',
     name: 'Seated Leg Curl',
     difficulty: 'Beginner',
@@ -1431,7 +1590,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 160,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Diagonal Lunge',
     difficulty: 'Advanced',
@@ -1440,7 +1600,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 161,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Hack Squat',
     difficulty: 'Advanced',
@@ -1449,7 +1610,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 162,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Lunge',
     difficulty: 'Intermediate',
@@ -1458,7 +1620,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 163,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Reverse Lunge',
     difficulty: 'Intermediate',
@@ -1467,7 +1630,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 164,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Side Lunge',
     difficulty: 'Intermediate',
@@ -1476,7 +1640,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 165,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Split Squat',
     difficulty: 'Advanced',
@@ -1485,7 +1650,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 166,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Squat',
     difficulty: 'Beginner',
@@ -1494,7 +1660,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 167,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Step-Up',
     difficulty: 'Advanced',
@@ -1503,7 +1670,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 168,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Barbell Walking Lunge',
     difficulty: 'Advanced',
@@ -1512,7 +1680,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 169,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Diagonal Lunge',
     difficulty: 'Intermediate',
@@ -1521,7 +1690,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 170,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Diagonal Lunge',
     difficulty: 'Advanced',
@@ -1530,7 +1700,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 171,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Lunge',
     difficulty: 'Beginner',
@@ -1539,7 +1710,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 172,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Reverse Lunge',
     difficulty: 'Intermediate',
@@ -1548,7 +1720,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 173,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Side Lunge',
     difficulty: 'Intermediate',
@@ -1557,7 +1730,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 174,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Split Squat',
     difficulty: 'Advanced',
@@ -1566,7 +1740,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 175,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Squat',
     difficulty: 'Beginner',
@@ -1575,7 +1750,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 176,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Step-Up',
     difficulty: 'Beginner',
@@ -1584,7 +1760,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 177,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Dumbbell Walking Lunge',
     difficulty: 'Advanced',
@@ -1593,7 +1770,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 178,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Forward Lunge',
     difficulty: 'Beginner',
@@ -1602,7 +1780,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 179,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lateral Barbell Squat',
     difficulty: 'Intermediate',
@@ -1611,7 +1790,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 180,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lateral Barbell Step-Up',
     difficulty: 'Advanced',
@@ -1620,7 +1800,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 181,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lateral Squat',
     difficulty: 'Beginner',
@@ -1629,7 +1810,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 182,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lateral Step-Up',
     difficulty: 'Beginner',
@@ -1638,7 +1820,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 183,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Leg Press',
     difficulty: 'Beginner',
@@ -1647,7 +1830,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 184,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lunge',
     difficulty: 'Beginner',
@@ -1656,7 +1840,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 185,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Lying Machine Squat',
     difficulty: 'Beginner',
@@ -1665,7 +1850,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 186,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Machine Hack Squat',
     difficulty: 'Beginner',
@@ -1674,7 +1860,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 187,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Reverse Lunge',
     difficulty: 'Beginner',
@@ -1683,7 +1870,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 188,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Arm Barbell Side Squat',
     difficulty: 'Advanced',
@@ -1692,7 +1880,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 189,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Arm Dumbbell Side Squat',
     difficulty: 'Intermediate',
@@ -1701,7 +1890,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 190,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Barbell Squat',
     difficulty: 'Advanced',
@@ -1710,7 +1900,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 191,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Box Squat',
     difficulty: 'Advanced',
@@ -1719,7 +1910,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 192,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Dumbbell Box Squat',
     difficulty: 'Advanced',
@@ -1728,7 +1920,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 193,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Dumbbell Squat',
     difficulty: 'Intermediate',
@@ -1737,7 +1930,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 194,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Squat',
     difficulty: 'Intermediate',
@@ -1746,7 +1940,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 195,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Smith Machine Squat',
     difficulty: 'Intermediate',
@@ -1755,7 +1950,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 196,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Split Squat',
     difficulty: 'Advanced',
@@ -1764,7 +1960,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 197,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Step-Up',
     difficulty: 'Beginner',
@@ -1773,7 +1970,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 198,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Walking Lunge',
     difficulty: 'Intermediate',
@@ -1782,7 +1980,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Legs',
+    unq_id: 199,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Alternating Leg Ext',
     difficulty: 'Intermediate',
@@ -1791,7 +1990,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 200,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Leg Ext',
     difficulty: 'Beginner',
@@ -1800,7 +2000,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Legs',
+    unq_id: 201,
+    category: 'Legs',
     muscles: 'Legs-Quadriceps',
     name: 'Single-Leg Ext',
     difficulty: 'Intermediate',
@@ -1809,7 +2010,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Back',
+    unq_id: 202,
+    category: 'Back',
     muscles: 'LowerBack-ErectorSpinae',
     name: 'Alternating Superman',
     difficulty: 'Beginner',
@@ -1818,7 +2020,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Back',
+    unq_id: 203,
+    category: 'Back',
     muscles: 'LowerBack-ErectorSpinae',
     name: 'Back Raise',
     difficulty: 'Beginner',
@@ -1827,7 +2030,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Back',
+    unq_id: 204,
+    category: 'Back',
     muscles: 'LowerBack-ErectorSpinae',
     name: 'Quadruped Alternating Superman',
     difficulty: 'Beginner',
@@ -1836,7 +2040,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Back',
+    unq_id: 205,
+    category: 'Back',
     muscles: 'LowerBack-ErectorSpinae',
     name: 'Superman',
     difficulty: 'Beginner',
@@ -1845,7 +2050,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Back',
+    unq_id: 206,
+    category: 'Back',
     muscles: 'LowerBack-ErectorSpinae',
     name: 'Superman Hold',
     difficulty: 'Beginner',
@@ -1854,7 +2060,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 207,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Arnold Dumbbell Press',
     difficulty: 'Intermediate',
@@ -1863,7 +2070,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 208,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Barbell Shoulder Press',
     difficulty: 'Advanced',
@@ -1872,7 +2080,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 209,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Dumbbell Alternating Shoulder Press',
     difficulty: 'Beginner',
@@ -1881,7 +2090,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 210,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Dumbbell Front Raise',
     difficulty: 'Beginner',
@@ -1890,7 +2100,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 211,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Dumbbell Shoulder Press',
     difficulty: 'Intermediate',
@@ -1899,7 +2110,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 212,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Dumbbell Twisting Shoulder Press',
     difficulty: 'Intermediate',
@@ -1908,7 +2120,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 213,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Machine Shoulder Press',
     difficulty: 'Beginner',
@@ -1917,7 +2130,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 214,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Seated Dumbbell Rear Delt Elbow Raise',
     difficulty: 'Intermediate',
@@ -1926,7 +2140,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 215,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Single-Arm Dumbbell Shoulder Press',
     difficulty: 'Beginner',
@@ -1935,7 +2150,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 216,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Smith Machine Shoulder Press',
     difficulty: 'Advanced',
@@ -1944,7 +2160,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 217,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Barbell Front Raise',
     difficulty: 'Intermediate',
@@ -1953,7 +2170,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 218,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Bent-Over Cable Rear Delt Raise',
     difficulty: 'Advanced',
@@ -1962,7 +2180,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 219,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Bent-Over Dumbbell Rear Delt Raise',
     difficulty: 'Intermediate',
@@ -1971,7 +2190,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 220,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Cable Front Raise',
     difficulty: 'Intermediate',
@@ -1980,7 +2200,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 221,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Cable Lateral Raise',
     difficulty: 'Intermediate',
@@ -1989,7 +2210,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 222,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Dumbbell Lateral Raise',
     difficulty: 'Beginner',
@@ -1998,7 +2220,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 223,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Front Plate Raise',
     difficulty: 'Beginner',
@@ -2007,7 +2230,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 224,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Kneeling Single-Arm Cable Rear Delt Raise',
     difficulty: 'Advanced',
@@ -2016,7 +2240,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 225,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Lying Dumbbell External Rot',
     difficulty: 'Beginner',
@@ -2025,7 +2250,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 226,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Lying Dumbbell Rear Delt Raise',
     difficulty: 'Beginner',
@@ -2034,7 +2260,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 227,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Lying Single-Arm Dumbbell Rear Delt Raise',
     difficulty: 'Beginner',
@@ -2043,8 +2270,9 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
-    muscles: 'Shoulders-Delts/Traps',
+    unq_id: 228,
+    category: 'Shoulders',
+    muscles: 'Shoulders-Delt/Traps',
     name: 'Pec Deck Real Delt Exts',
     difficulty: 'Intermediate',
     focus: 'Upper',
@@ -2052,7 +2280,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 229,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Reverse Incline Dumbbell Rear Delt Raise',
     difficulty: 'Advanced',
@@ -2061,7 +2290,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 230,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Seated Dumbbell Rear Delt Raise',
     difficulty: 'Beginner',
@@ -2070,7 +2300,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 231,
+    category: 'Shoulders',
     muscles: 'Shoulders-Delts/Traps',
     name: 'Single-Arm Cable Lateral Raise',
     difficulty: 'Intermediate',
@@ -2079,7 +2310,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Shoulders',
+    unq_id: 232,
+    category: 'Shoulders',
     muscles: 'Shoulders-RotatorCuff',
     name: 'Cable External Rot',
     difficulty: 'Beginner',
@@ -2088,7 +2320,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 233,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Close-Grip Bench Press',
     difficulty: 'Advanced',
@@ -2097,7 +2330,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 234,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Forward Lean Dips',
     difficulty: 'Intermediate',
@@ -2106,7 +2340,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 235,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Assisted Dips',
     difficulty: 'Beginner',
@@ -2115,7 +2350,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 236,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Bench Dips',
     difficulty: 'Intermediate',
@@ -2124,7 +2360,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 237,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Diamond Push-Up',
     difficulty: 'Intermediate',
@@ -2133,7 +2370,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 238,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Dips',
     difficulty: 'Intermediate',
@@ -2142,7 +2380,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 239,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Machine Dips',
     difficulty: 'Beginner',
@@ -2151,7 +2390,8 @@ const resistance = [
     mod: 'M',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 240,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Decline Dumbbell Triceps Ext',
     difficulty: 'Advanced',
@@ -2160,7 +2400,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 241,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Decline EZ-Bar Tricep Ext',
     difficulty: 'Advanced',
@@ -2169,7 +2410,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 242,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Decline Single Dumbbell Triceps Ext',
     difficulty: 'Advanced',
@@ -2178,7 +2420,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 243,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Decline Single-Arm Dumbbell Triceps Ext',
     difficulty: 'Advanced',
@@ -2187,7 +2430,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 244,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Dumbbell Kickback',
     difficulty: 'Beginner',
@@ -2196,7 +2440,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 245,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Incline EZ-Bar Tricep Ext',
     difficulty: 'Advanced',
@@ -2205,7 +2450,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 246,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Kneeling Cable Triceps Ext',
     difficulty: 'Beginner',
@@ -2214,7 +2460,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 247,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Leaning Overhead Tricep Ext',
     difficulty: 'Intermediate',
@@ -2223,7 +2470,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 248,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Low Cable Triceps Ext',
     difficulty: 'Intermediate',
@@ -2232,7 +2480,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 249,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Cable Triceps Ext',
     difficulty: 'Intermediate',
@@ -2241,7 +2490,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 250,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying EZ-Bar Triceps Ext',
     difficulty: 'Intermediate',
@@ -2250,7 +2500,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 251,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Overhead EZ-Bar Tricep Ext',
     difficulty: 'Intermediate',
@@ -2259,7 +2510,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 252,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Reverse EZ-Bar Triceps Ext',
     difficulty: 'Advanced',
@@ -2268,7 +2520,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 253,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Single Dumbbell Triceps Ext',
     difficulty: 'Beginner',
@@ -2277,7 +2530,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 254,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Single-Arm Dumbbell Triceps Ext',
     difficulty: 'Beginner',
@@ -2286,7 +2540,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 255,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Lying Tricep Exts',
     difficulty: 'Beginner',
@@ -2295,7 +2550,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 256,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead Dumbbell Triceps Ext',
     difficulty: 'Beginner',
@@ -2304,7 +2560,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 257,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead EZ-Bar Triceps Ext',
     difficulty: 'Advanced',
@@ -2313,7 +2570,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 258,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead Rope Cable Tricep Ext',
     difficulty: 'Intermediate',
@@ -2322,7 +2580,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 259,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead Single Dumbbell Tricep Ext',
     difficulty: 'Beginner',
@@ -2331,7 +2590,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 260,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead Single-Arm Cable Tricep Ext',
     difficulty: 'Intermediate',
@@ -2340,7 +2600,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 261,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Overhead Single-Arm Dumbbell Tricep Ext',
     difficulty: 'Beginner',
@@ -2349,7 +2610,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 262,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Reverse Tricep Pushdown',
     difficulty: 'Advanced',
@@ -2358,7 +2620,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 263,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Rope Triceps Pushdown',
     difficulty: 'Intermediate',
@@ -2367,7 +2630,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 264,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Single-Arm Towel Triceps Pushdown',
     difficulty: 'Beginner',
@@ -2376,7 +2640,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 265,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Single-Arm Triceps Pushdown',
     difficulty: 'Intermediate',
@@ -2385,7 +2650,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 266,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Towel Triceps Pushdown',
     difficulty: 'Beginner',
@@ -2394,7 +2660,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 267,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Tricep Exts',
     difficulty: 'Beginner',
@@ -2403,7 +2670,8 @@ const resistance = [
     mod: 'Free-Weight',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 268,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Tricep Pushdown',
     difficulty: 'Beginner',
@@ -2412,7 +2680,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 269,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'Tricep Pushdown',
     difficulty: 'Beginner',
@@ -2421,7 +2690,8 @@ const resistance = [
     mod: 'Cable',
   },
   {
-    targeted: 'Triceps',
+    unq_id: 270,
+    category: 'Triceps',
     muscles: 'Triceps',
     name: 'V-Bar Tricep Pushdown',
     difficulty: 'Beginner',
@@ -2430,5 +2700,6 @@ const resistance = [
     mod: 'Cable',
   },
 ];
+;
 
 module.exports = resistance;

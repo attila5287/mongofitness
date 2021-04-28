@@ -1,4 +1,4 @@
-<div class="my-0 py-0 hide_with_menu">
+<div class="my-0 py-0 hide_with_menu d-none">
 
   <h1 class="text-center">
     Exercise Menu
@@ -24,10 +24,6 @@
   </p>
 
 </div>
-
-
-
-
 <h1 class="text-center">
   <span class="text-primary">
     Resistance
@@ -46,37 +42,14 @@
 
 <div class="collapse show" id="muscle_div">
   <div class="row">
+
     {{#each lifting as |lift|}}
 
-
-
       <div class="col-3">
-<!-- Modal -->
-<div class="modal fade" id="{{lift}}_modal" tabindex="-1" role="dialog" aria-labelledby="{{lift}}_modal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-        <button  data-toggle="modal" data-target="#{{lift}}_modal" class="btn btn-block btn-outline-primary rounded-xl w-100 h-100">
+        <button data-category="{{lift}}"  data-toggle="modal" data-target="#{{lift}}_modal" class="fetch_btns btn btn-block btn-outline-primary rounded-xl w-100 h-100">
 
-          {{!-- <img class="img-lift" src="https://raw.githubusercontent.com/attila5287/mongofitness/main/public/img/muscles/{{lift}}.png" alt="{{lift}}-img"> --}}
-
-          <img class="img-lift" src="/img/muscles/{{lift}}.png"
+          <img data-category="{{lift}}" class="img-lift" src="/img/muscles/{{lift}}.png"
             alt="{{lift}}-img">
 
         </button>
@@ -86,7 +59,9 @@
         </h4>
 
       </div>
+
     {{/each}}
+
 
   </div>
 
