@@ -111,35 +111,35 @@
 <div class="collapse show" id="calorie_div">
   <div class="row">
     {{#each burning as |burn|}}
-
-      <div class="modal fade" id="{{burn}}_modal" tabindex="-1" role="dialog"
-        aria-labelledby="{{burn}}_modal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title
-              </h5>
-              <button type="button" class="close" data-dismiss="modal"
-                aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary"
-                data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save
-                changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="col-3">
-        <button type="button" data-toggle="modal" data-target="#{{burn}}_modal"
-          aria-expanded="false" aria-controls="{{burn}}_modal"
-          class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
+    <div class="collapse" id="{{burn}}_coll">
+      <div class="card card-body bg-transparent border-secondary">
+        <form class="cardio_form">
+          <div class="form-group">
+            <input type="text" name="name" class="form-plaintext form-control-dark text-lg" value="{{burn}}" readonly>
+          </div>
+          <div class="form-group">
+            <label for="">Distance</label>
+            <input type="number" name="distance" class="form-control form-control-dark" value="0">
+          </div>
+          <div class="form-group">
+            <label for="">Duration</label>
+            <input type="number" name="duration" class="form-control form-control-dark" value="0">
+          </div>
+          <div class="form-group">
+            <label for="">Type</label>
+            <select name="type" class="custom-select form-control-dark border-0">
+              <option value="cardio" selected>cardio</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-sm btn-block btn-outline-secondary">Add cardio to workout</button>
+          </div>
+        </form>  
+      </div>
+    </div>
+        <button type="button" data-target="#{{burn}}_coll"
+          aria-expanded="false" aria-controls="{{burn}}_coll" data-toggle="collapse" aria-expanded="false"           class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
 
           <img class="img-burn" src="/img/illustration/{{burn}}.png"
             alt="{{burn}}-img">

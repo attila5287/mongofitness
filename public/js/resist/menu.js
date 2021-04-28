@@ -51,13 +51,13 @@ $('.fetch_btns').each(function (index, element) {
         p.append(span);
         col.append(p);
                 
-
-
         const form = $('<form>');
         form.attr('class', 'ex_form');
 
         col.append(form);
-        const name_in = $('<input>');
+        
+
+        const name_in = $( '<input>' );
         name_in
           .attr(
             'class',
@@ -70,6 +70,18 @@ $('.fetch_btns').each(function (index, element) {
 
         form.append(name_in);
 
+
+        const type_in = $('<select>');
+        type_in.attr( 'class', 'custom-select form-control-dark' )
+          .attr('name', 'type');
+        const opt = $('<option>');
+        opt.text('resistance');
+
+        opt.attr('value', 'resistance').attr('selected', true);
+        type_in.append(opt);
+        form.append(type_in);
+        
+          
         const set_in = $('<input>');
         set_in
           .attr('class', 'form-control form-control-sm form-control-dark')
