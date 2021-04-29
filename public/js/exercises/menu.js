@@ -14,7 +14,9 @@ $('.fetch_btns').each(function (index, element) {
       headers: { 'Content-Type': 'application/json' },
     });
 
-    if (response.ok) {
+    if ( response.ok )
+    {
+      
       console.log('resp OK');
 
       const json = await response.json();

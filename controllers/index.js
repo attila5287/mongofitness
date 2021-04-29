@@ -7,17 +7,18 @@ router.use( '/api', apiRoutes );
 
 router.get( '/', ( req, res ) => {
   
-  const scripts = [
-    '/js/collapse/muscle_div.js',
-    '/js/collapse/calorie_div.js',
-    '/js/resist/menu.js',
-  ];
-
   res.render('landing', {
     burning: burning,
     lifting: lifting,
     at_home: true,
   });
+
+} );
+
+router.get('/stats', (req, res) => {
+  res.render( 'stats', {
+    at_stats : true
+  } );
 
 });
 
