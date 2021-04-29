@@ -1,5 +1,20 @@
 const router = require( 'express' ).Router();
 const Workout = require('../../models/Workout');
+
+router.put('/:id', (req, res) => {
+  Workout.findByIdAndUpdate(req.params.id, {
+    $push: {
+      exercises: req.body,
+    },
+  })
+    .then((dbWorkout) => {
+      res.json(dbWorkout);
+    })
+    .catch((err) => {
+      res.status(400).json(err);
+    });
+});
+
 router.post( "/", ( req, res ) => {
     Workout.create( req.body )
         .then( ( dbWorkout ) => {
@@ -28,8 +43,8 @@ router.get( '/latest', async ( req, res ) => {
         } )
         .limit(1)
         .catch( ( e ) => console.log( e ) );
-
-    res.json( mods );
+    const latest= mods.map( ( d ) => d.toJSON());
+    res.json( latest );
 
 } );
 

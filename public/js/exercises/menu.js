@@ -126,11 +126,19 @@ $('.fetch_btns').each(function (index, element) {
         form.append(weight_in);
 
         const submit = $('<input>');
-        submit.attr('class', 'btn btn-block btn-outline-info mt-1 mb-2');
+        submit.attr('class', 'ex_btn btn btn-block btn-outline-info mt-1 mb-2');
         submit.attr('type', 'submit');
         submit.attr('value', 'Add to Workout');
         form.append(submit);
       });
     }
+  });
+});
+
+$.each( $( '.ex_btn' ), function ( indexInArray, valueOfElement ) {
+  $( this ).on( "click", (event) => {
+    event.preventDefault();
+
+    console.log('test');
   });
 });
