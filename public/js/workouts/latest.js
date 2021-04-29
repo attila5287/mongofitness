@@ -18,14 +18,15 @@ const render_latest = async () => {
         .attr('data-id', workout._id)
         .text( workout._id );
       
-      
-      workout.exercises.forEach( ex => {
-      Object.keys(ex).forEach(k => {
-        const p = $( '<p>' );
-        p.text( k + ':' + ex[ k ] );
-        $( '#workout_div' ).append( p );
-        
-      });
+        workout.exercises.forEach( ex => {
+          const li = $( '<li>' );
+          li.attr('class', 'list-group-item bg-primary');
+          let text = '';
+        ['name','weight','reps','sets'].forEach(k => {
+          text = text + k + ':' + ex[ k ] + '- ';
+          li.text(text)
+        });
+        $( '#workout_div' ).append( li );
     });
 
     });
