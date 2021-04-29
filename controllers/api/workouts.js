@@ -1,7 +1,8 @@
 const router = require( 'express' ).Router();
 const Workout = require('../../models/Workout');
 
-router.put('/:id', (req, res) => {
+router.put( '/:id', ( req, res ) => {
+  console.log('req.body :>> ', req.body);
   Workout.findByIdAndUpdate(req.params.id, {
     $push: {
       exercises: req.body,

@@ -12,7 +12,7 @@ $('.fetch_btns').each(function (index, element) {
     const response = await fetch('/api/ex/' + cat, {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
-    });
+    }).catch(e=>console.log(e));
 
     if ( response.ok )
     {
@@ -54,7 +54,9 @@ $('.fetch_btns').each(function (index, element) {
         col.append(p);
                 
         const form = $('<form>');
-        form.attr('class', 'ex_form');
+        form.attr( 'id', 'form_'+ex.unq_id);
+        form.attr( 'class', 'ex_form' );
+        form.submit(ex_submit_handler);
 
         col.append(form);
         
@@ -68,7 +70,9 @@ $('.fetch_btns').each(function (index, element) {
           .attr('readonly', true)
           .attr('type', 'text')
           .attr('value', ex.name)
-          .attr('name', 'name');
+          .attr( 'name', 'name' )
+          .attr( 'id', 'name_'+ex.unq_id )
+          ;
 
         form.append(name_in);
 
@@ -79,7 +83,7 @@ $('.fetch_btns').each(function (index, element) {
         const opt = $('<option>');
         opt.text('resistance');
 
-        opt.attr('value', 'resistance').attr('selected', true);
+        opt.attr('value', 'resistance').attr('selected', true).attr('id','type_'+ex.unq_id);
         type_in.append(opt);
         form.append(type_in);
         
@@ -89,7 +93,7 @@ $('.fetch_btns').each(function (index, element) {
           .attr('class', 'form-control form-control-sm form-control-dark')
           .attr('type', 'number')
           .attr('value', '4')
-          .attr('name', 'set');
+          .attr('id', 'sets_' + ex.unq_id);
 
         const label_set = $('<label>');
         label_set.attr('for', 'set');
@@ -103,7 +107,8 @@ $('.fetch_btns').each(function (index, element) {
           .attr('class', 'form-control form-control-sm form-control-dark')
           .attr('type', 'number')
           .attr('value', '8')
-          .attr('name', 'reps');
+          .attr('id', 'reps_'+ex.unq_id)
+          ;
 
         const label_rep = $('<label>');
         label_rep.attr('for', 'reps');
@@ -117,7 +122,7 @@ $('.fetch_btns').each(function (index, element) {
           .attr('class', 'form-control form-control-sm form-control-dark')
           .attr('type', 'number')
           .attr('value', '0')
-          .attr('name', 'weight');
+          .attr('id', 'weight_' + ex.unq_id);
 
         const label_weight = $('<label>');
         label_weight.attr('for', 'weight');
@@ -126,19 +131,43 @@ $('.fetch_btns').each(function (index, element) {
         form.append(weight_in);
 
         const submit = $('<input>');
-        submit.attr('class', 'ex_btn btn btn-block btn-outline-info mt-1 mb-2');
+        submit.attr('class', 'btn btn-block btn-outline-info mt-1 mb-2');
         submit.attr('type', 'submit');
         submit.attr('value', 'Add to Workout');
         form.append(submit);
       });
     }
-  });
+    document
+      .querySelector('.ex_form')
+      .addEventListener('submit', () => console.log('test'));
+  } );
 });
 
-$.each( $( '.ex_btn' ), function ( indexInArray, valueOfElement ) {
-  $( this ).on( "click", (event) => {
-    event.preventDefault();
-
-    console.log('test');
-  });
-});
+const ex_submit_handler = async (event) => {
+  event.preventDefault();
+  console.log( 'event.target.id :>> ', event.target.id.split( '_' )[ 1 ] );
+  const form_id = event.target.id.split( '_' )[ 1 ];
+  console.log( 'test2' );
+  const id = document.getElementById( 'latest_workout_id' ).dataset[ 'id' ];
+  console.log( 'id :>> ', id );
+  const put_data = {
+    type: $('#type_' + form_id).val(),
+    name: $('#name_' + form_id).val(),
+    duration: 10,
+    weight: $('#weight_' + form_id).val(),
+    reps: $('#reps_' + form_id).val(),
+    sets: $('#sets_' + form_id).val(),
+  };
+  console.log('put_data :>> ', put_data);
+  const response = await fetch( '/api/work/' + id, {
+    method: 'PUT',
+    body: JSON.stringify(put_data),
+    headers: { 'Content-Type': 'application/json' },
+    
+  } ).catch( e => console.log( e ) )
+  if ( response.ok )
+  {
+    render_latest();
+  }
+};
+    
