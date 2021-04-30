@@ -8,7 +8,8 @@ const render_latest = async () => {
 
   if ( response.ok ) {
     const json = await response.json();
-
+    $('#workout_div').empty();
+    
     // console.log( 'json :>> ', json );
 
     json.forEach( ( workout ) => {
