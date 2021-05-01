@@ -26,8 +26,6 @@ $('.cardio_forms').submit(async (event)=> {
     });
     if (res.ok) {
       render_latest();
-      const toast = document.querySelector( '#toast' );
-      toast.classList.add('success');
     }
     
   });

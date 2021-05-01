@@ -65,7 +65,7 @@ const render_latest = async () => {
 
           const btn_li = $('<li>');
           const btn = $( '<button>' );
-        btn.attr( 'class', 'btn btn-outline-light border-0 ml-5 shadow-lg' );
+        btn.attr( 'class', 'btn btn-outline-light border-0 ml-5' );
 
         btn.html( '<h5 class="fas fa-times-circle text-light">  </h5>' );
         $( ol ).append( btn );
