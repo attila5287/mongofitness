@@ -43,7 +43,7 @@ const render_latest = async () => {
         ol = $( '<ol>' );
           ol.attr(
             'class',
-            `breadcrumb bg-${styles[ex.type]} ${
+            `mx-5 breadcrumb bg-${styles[ex.type]} ${
               anime[ex_index % 2]
             } text-capitalize align-items-center shadow-lg py-0`
           );
