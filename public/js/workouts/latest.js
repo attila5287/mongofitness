@@ -1,5 +1,5 @@
 const render_latest = async () => {
-  function delete_btn_handler () {
+  async function delete_btn_handler () {
     console.log( 'delete btn handler' );
     const response = await fetch( '/api/work/latest', {
     method: 'GET',
