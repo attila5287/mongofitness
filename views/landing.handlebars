@@ -29,13 +29,13 @@
   <span class="text-info">
     Workout
 
-  <span id="latest_workout_id" class="text-sm"></span>
+    <span id="latest_workout_id" class="text-sm"></span>
 
   </span>
   <span class="float-right">
     <button class="btn btn-outline-info" type="button" data-toggle="collapse"
-      data-target="#workout_div" aria-expanded="false" aria-controls="workout_div"
-      id="collapse_workout_button">
+      data-target="#workout_div" aria-expanded="false"
+      aria-controls="workout_div" id="collapse_workout_button">
       <span class="collapse_workout_text"> Show </span>
       <i id="collapse_workout_icon" class="fas fa-chevron-down"
         aria-hidden="true"></i>
@@ -92,7 +92,8 @@
 
 </div>
 
-<button onclick="clear_gallery()" type="button" class="btn btn-sm btn-outline-warning">
+<button onclick="clear_gallery()" type="button"
+  class="btn btn-sm btn-outline-warning">
   <i class="fas fa-broom"></i>
   Clear Gallery</button>
 
@@ -114,59 +115,72 @@
 <div class="collapse show" id="calorie_div">
   <div class="row">
     {{#each burning as |burn|}}
-      <div class="col-3">
+      <div class="col-2 p-1 mb-5">
         <!-- Modal -->
-<div class="modal fade" id="{{burn}}_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Add cardio </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-primary">
+        <div class="modal fade" id="{{burn}}_modal" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Add cardio
+                </h5>
+                <button type="button" class="close" data-dismiss="modal"
+                  aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-primary">
                 <form class="cardio_form">
-          <div class="form-group">
-            <input type="text" name="name" class="form-plaintext text-lg" value="{{burn}}" readonly>
+                  <div class="form-group">
+                    <input type="text" name="name"
+                      class="form-plaintext text-lg" value="{{burn}}" readonly>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Distance</label>
+                    <input type="number" name="distance" class="form-control"
+                      value="0">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Duration</label>
+                    <input type="number" name="duration" class="form-control"
+                      value="0">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Type</label>
+                    <select name="type" class="custom-select border-0">
+                      <option value="cardio" selected>cardio</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit"
+                      class="btn btn-sm btn-block btn-outline-secondary">Add
+                      cardio to workout</button>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                  data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save
+                  changes</button>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="">Distance</label>
-            <input type="number" name="distance" class="form-control" value="0">
-          </div>
-          <div class="form-group">
-            <label for="">Duration</label>
-            <input type="number" name="duration" class="form-control" value="0">
-          </div>
-          <div class="form-group">
-            <label for="">Type</label>
-            <select name="type" class="custom-select border-0">
-              <option value="cardio" selected>cardio</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-sm btn-block btn-outline-secondary">Add cardio to workout</button>
-          </div>
-        </form>  
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+        </div>
+        <p class="text-center text-uppercase">
+          {{burn}}
+        </p>
         <button type="button" data-target="#{{burn}}_modal"
-           aria-controls="{{burn}}_modal" data-toggle="modal" aria-expanded="false" class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
+          aria-controls="{{burn}}_modal" data-toggle="modal"
+          aria-expanded="false"
+          class="btn btn-block btn-outline-secondary rounded-xl w-100 h-100">
 
           <img class="img-burn" src="/img/illustration/{{burn}}.png"
             alt="{{burn}}-img">
 
+
         </button>
 
-        <h4 class="text-center text-uppercase">
-          {{burn}}
-        </h4>
 
       </div>
     {{/each}}

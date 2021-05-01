@@ -7,8 +7,6 @@ $( '#collapse_muscle_button' )
       $( "#collapse_muscle_icon" ).addClass( "fa-chevron-down" );
     } else {
       collapse_muscle_collapsed = true;
-      $( "#collapse_muscle_text" ).text( "Hide" );
-      $( "#collapse_muscle_text" ).text( "Show" );
       $( "#collapse_muscle_icon" ).removeClass( "fa-chevron-down" );
       $( "#collapse_muscle_icon" ).addClass( "fa-chevron-up" );
     }

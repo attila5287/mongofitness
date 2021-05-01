@@ -147,7 +147,6 @@ const ex_submit_handler = async (event) => {
   event.preventDefault();
   console.log( 'event.target.id :>> ', event.target.id.split( '_' )[ 1 ] );
   const form_id = event.target.id.split( '_' )[ 1 ];
-  console.log( 'test2' );
   const id = document.getElementById( 'latest_workout_id' ).dataset[ 'id' ];
   console.log( 'id :>> ', id );
   const put_data = {
@@ -158,7 +157,7 @@ const ex_submit_handler = async (event) => {
     reps: $('#reps_' + form_id).val(),
     sets: $('#sets_' + form_id).val(),
   };
-  console.log('put_data :>> ', put_data);
+  // console.log('put_data :>> ', put_data);
   const response = await fetch( '/api/work/' + id, {
     method: 'PUT',
     body: JSON.stringify(put_data),

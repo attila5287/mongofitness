@@ -19,7 +19,7 @@ module.exports = {
     "aerobic",
     "battling_rope",
     "jumping_rope",
-    "pull_rope",
+    "tension",
     "sprint",
     "yoga",
     "ball",

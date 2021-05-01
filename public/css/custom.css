@@ -166,8 +166,8 @@ a.post-title:focus {
 }
 
 .img-nav {
-  max-width:  3.50rem;
-  max-height: 3.50rem;
+  max-width:  2.50rem;
+  max-height: 2.50rem;
 }
 
 .img-mini {
@@ -182,12 +182,12 @@ a.post-title:focus {
 }
 
 .img-burn {
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 3rem;
+  max-height: 3rem;
 }
 .img-lift  {
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 6rem;
+  max-height: 6rem;
 }
 
 .fa-stack {
@@ -230,8 +230,8 @@ a.post-title:focus {
 .navbar-nav .nav-link {
   padding-top: 0;
   padding-bottom: 0;
-  height: 4rem;
-  line-height: 4rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .col-3 {

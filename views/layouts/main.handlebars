@@ -26,32 +26,34 @@
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top align-items-center">
         <div class="nav navbar-nav">
-          <a class="navbar-brand text-lg font-weight-bold" href="http://mongofitness.herokuapp.com">
+          <a class="navbar-brand  font-weight-bold" href="http://mongofitness.herokuapp.com">
             <img
               src="/img/site/logo72.png"
-              class="img-nav bg-transparent" alt="app-logo">
+              class="animated bounceInDown delay-1s img-nav bg-transparent" alt="app-logo">
 
-            <span class="badge badge-info p-1 text-reg">
-              <span class="badge badge-light m-0 p-1 font-weight-bold  shadow-lg text-lg">
+            <span class="animated bounceInDown delay-2s badge badge-info p-1 text-reg">
+              <span class="badge badge-light m-0 p-1 font-weight-bold  shadow-lg ">
                 mongo 
                 <i class="fas fa-database text-info shadow-lg"></i>
                 Fitness
                 </span>
-              Tracker
             </span>
           </a>
           
-          <a class="nav-item nav-link active" href="/" id="exercises_link">
-            <i class="fas fa-dumbbell"></i>
-            Exercises
+          <a class="animated bounceInDown delay-3s nav-item nav-link text-sm" href="/" id="exercises_link">
+            <i class="fas fa-home"></i>
+            Home
           </a>
           
-          <a class="nav-item nav-link" href="/stats" id="stats_link">
+          <a class="animated bounceInDown delay-4s nav-item nav-link text-sm" href="/stats" id="stats_link">
             <i class="fas fa-chart-bar"></i>
             Stats
           </a>
 
 
+          <a class="nav-item nav-link mr-4" href="https://attila5287.github.io/">
+          <h1 class="text-dark fab fa-node animated infinite heartBeat delay-5s"></h1>          
+        </a>
 
                   
           <a class="nav-item nav-link float-right mr-4" href="https://attila5287.github.io/">
@@ -60,6 +62,7 @@
         </a>
         </div>
       </nav>
+      
     </header>
 
     <main class="container midi">
@@ -68,19 +71,6 @@
     </main>
 
 
-    <footer class="footer fixed-bottom mt-auto py-0 text-center bg-dark align-items-center">
-      <div class="container d-flex justify-content-center align-items-end">
-        <span class="text-light">
-          <span class="animated bounceInDown delay-1s"><i class="mr-2 fas fa-database"
-              aria-hidden="true"></i>mongo DB, mongoose ORM, </span>
-
-          <h1 class="text-dark fab fa-node animated infinite heartBeat delay-5s "></h1>
-
-          <span class="animated bounceInDown delay-4s"><i class="mr-2 fas fa-server"
-              aria-hidden="true"></i>express,handlebars </span>
-
-      </div>
-    </footer>
           {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">
           </script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js">
@@ -96,7 +86,7 @@
     <script src="/js/collapse/workout_div.js"></script>
     <script src="/js/collapse/muscle_div.js"></script>
     <script src="/js/collapse/calorie_div.js"></script>
-    <script src="/js/workouts/latest.js"></script>
+    <script src="/js/workouts/render.js"></script>
     <script src="/js/exercises/menu.js"></script>
 {{/if}}
 

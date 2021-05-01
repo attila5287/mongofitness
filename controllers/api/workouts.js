@@ -1,6 +1,20 @@
 const router = require( 'express' ).Router();
 const Workout = require('../../models/Workout');
 
+router.put( '/delete/:id', ( req, res ) => {
+  console.log('req.body :>> ', req.body);
+  Workout.findByIdAndUpdate(req.params.id, {
+   $pull: { exercises: { name: req.body.name } } ,
+    
+  })
+    .then((dbWorkout) => {
+      res.json(dbWorkout);
+    })
+    .catch((err) => {
+      res.status(400).json(err);
+    });
+});
+
 router.put( '/:id', ( req, res ) => {
   console.log('req.body :>> ', req.body);
   Workout.findByIdAndUpdate(req.params.id, {
