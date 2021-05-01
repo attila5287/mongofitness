@@ -22,30 +22,31 @@
     <link href="/css/custom.css" rel="stylesheet">
   </head>
 
-  <body class="my-5 py-5">
+  <body class="bg-body my-5 py-5">
     <header>
-      <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top align-items-center">
+      <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top align-items-end">
         <div class="nav navbar-nav">
           <a class="navbar-brand  font-weight-bold" href="http://mongofitness.herokuapp.com">
             <img
               src="/img/site/logo72.png"
-              class="animated bounceInDown delay-1s img-nav bg-transparent" alt="app-logo">
+              class="img-nav bg-transparent" alt="app-logo">
 
-            <span class="animated bounceInDown delay-2s badge badge-info p-1 text-reg">
+            <span class="badge badge-info p-1 text-reg">
               <span class="badge badge-light m-0 p-1 font-weight-bold  shadow-lg ">
                 mongo 
                 <i class="fas fa-database text-info shadow-lg"></i>
                 Fitness
                 </span>
             </span>
+
           </a>
           
-          <a class="animated bounceInDown delay-3s nav-item nav-link text-sm" href="/" id="exercises_link">
+          <a class="nav-item nav-link text-sm" href="/" id="exercises_link">
             <i class="fas fa-home"></i>
             Home
           </a>
           
-          <a class="animated bounceInDown delay-4s nav-item nav-link text-sm" href="/stats" id="stats_link">
+          <a class="delay-4s nav-item nav-link text-sm" href="/stats" id="stats_link">
             <i class="fas fa-chart-bar"></i>
             Stats
           </a>
@@ -69,7 +70,24 @@
       {{{body}}}
 
     </main>
+        <div class="fixed-bottom mt-5 pt-3 container midi text-center text-light d-flex justify-content-around text-sm">
 
+          <span class="animated bounceInDown delay-1s"><i class="mr-1 fas fa-database"
+              aria-hidden="true"></i>MongoDB/mongoose ORM </span>
+          
+          <span class="animated bounceInDown delay-2s"><i class="mr-1 fas fa-server"
+              aria-hidden="true"></i>express web framework</span>
+
+          <span class="animated bounceInDown delay-3s"><i class="mr-1 fab fa-html5"
+              aria-hidden="true"></i>handlebars template</span>
+
+          <span class="animated bounceInDown delay-4s">
+            <a href="https://github.com/attila5287/" class=""></a>
+            <i class="mr-1 fab fa-github"
+              aria-hidden="true"></i>attila5287</span>
+
+
+        </div>
 
           {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js">
           </script>
@@ -88,6 +106,7 @@
     <script src="/js/collapse/calorie_div.js"></script>
     <script src="/js/workouts/render.js"></script>
     <script src="/js/exercises/menu.js"></script>
+    <script src="/js/exercises/modal.js"></script>
 {{/if}}
 
 {{#if at_stats}}
